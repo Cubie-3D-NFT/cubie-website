@@ -1,0 +1,26 @@
+# Cruft
+*~
+*#
+.#*
+.DS_Store
+
+# Logs
+*.log
+
+# Yarn
+node_modules/
+.yarn-integrity
+yarn-debug.log*
+yarn-error.log*
+yarn.lock*
+
+# Build
+/dist*
+/dist/*
+
+# Editor/IDE
+.vscode
+packages/api/etc/
+
+# dotenv environment variables file
+.env.*
