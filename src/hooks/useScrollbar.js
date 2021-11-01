@@ -8,7 +8,7 @@ let scrollbar = null;
 let scrollToPos = null;
 
 if (isMobile) {
-  scrollToPos = (pos) => {
+  scrollToPos = (pos, duration) => {
     window.scrollTo(0, pos);
   };
 } else {
@@ -21,8 +21,8 @@ if (isMobile) {
     direction: true,
   });
 
-  scrollToPos = (pos) => {
-    scrollbar.scrollTo(0, pos, 1000);
+  scrollToPos = (pos, duration = 1000) => {
+    scrollbar.scrollTo(0, pos, duration);
   };
 }
 

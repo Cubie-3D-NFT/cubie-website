@@ -43,7 +43,7 @@ export default function App() {
   const location = useLocation();
   const previousLocation = usePrevious(location);
   useEffect(() => {
-    if (location?.pathname !== previousLocation?.pathname && scrollToPos) scrollToPos(0);
+    if (location?.pathname !== previousLocation?.pathname && scrollToPos) scrollToPos(0, 0);
   }, [location, scrollToPos]);
 
   // Smooth scrollbar

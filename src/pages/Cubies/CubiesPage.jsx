@@ -33,7 +33,7 @@ export default function CubiesPage() {
       const sectionCubies = cubies.slice(startIndex, endIndex);
 
       const section = (
-        <div className="rw" key={i}>
+        <div className="rw" key={`section-${i}`}>
           {sectionCubies.map((cbi, i) => {
             if (i == 2 || i == 4) return null;
 
@@ -45,7 +45,7 @@ export default function CubiesPage() {
                   target={hasLink ? '_blank' : '_self'}
                   className="cbi"
                   style={{ '--c': hexToRGB(cubie.color.color), 'cursor': hasLink ? 'pointer' : 'unset' }}
-                  key={cubie._uid}
+                  key={`cubie-${cubie._uid}`}
                 >
                   <div className="badge">{capitalize(cubie.type)}</div>
                   <img src={cubie.images[0].filename} />
@@ -62,7 +62,7 @@ export default function CubiesPage() {
 
             if (i == 1) {
               return (
-                <div className="cl">
+                <div className="cl" key={`sub-${i}`}>
                   {generateCbi(sectionCubies[1])}
                   {sectionCubies.length >= 3 && generateCbi(sectionCubies[2])}
                 </div>
@@ -71,7 +71,7 @@ export default function CubiesPage() {
 
             if (i == 3) {
               return (
-                <div className="cl">
+                <div className="cl" key={`sub-${i}`}>
                   {generateCbi(sectionCubies[3])}
                   {sectionCubies.length >= 5 && generateCbi(sectionCubies[4])}
                 </div>
