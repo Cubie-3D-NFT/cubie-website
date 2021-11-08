@@ -1,4 +1,4 @@
-import { ChakraProvider } from '@chakra-ui/react';
+import { ChakraProvider, extendTheme } from '@chakra-ui/react';
 import { createWeb3ReactRoot, Web3ReactProvider } from '@web3-react/core';
 import ReactDOM from 'react-dom';
 import Modal from 'react-modal';

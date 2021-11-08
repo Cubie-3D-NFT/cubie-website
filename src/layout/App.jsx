@@ -88,10 +88,10 @@ export default function App() {
         fixClass(y);
 
         html.classList.contains('stop') ? scrollbar.setPosition(0, sessionStorage.getItem('y')) : sessionStorage.setItem('y', y);
-        localStorage.setItem('y', y);
+        // localStorage.setItem('y', y);
       });
 
-      scrollbar.setPosition(0, localStorage.getItem('y'));
+      // scrollbar.setPosition(0, localStorage.getItem('y'));
 
       gsap.defaults({ ease: nn });
       gsap.config({ nullTargetWarn: false });
