@@ -104,7 +104,7 @@
 
 /* paragraphe */
 
-    .p{margin-bottom:calc(20px + 10 * (100vw - 320px) / 1080);font-size:var(--fs);line-height:1.6;max-width:100%;}
+    .p{margin-bottom:calc(20px + 10 * (100vw - 320px) / 1080);font-size:var(--fs);line-height:1.7;max-width:100%;}
 
 /* title */
     

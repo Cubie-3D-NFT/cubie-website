@@ -86,7 +86,7 @@ export default function Footer() {
                 <ol>
                   <li>Resources</li>
                   <li>
-                    <a href="https://docs.cubie.art" title="Documentation" target="_blank">
+                    <a href="#" title="Documentation" target="_blank">
                       Documentation
                     </a>
                   </li>

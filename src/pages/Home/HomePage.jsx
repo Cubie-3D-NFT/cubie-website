@@ -242,7 +242,11 @@ export default function HomePage() {
               </h1>
             </div>
             <div className="p">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+              <p>
+                <b>Cubie is a community-driven NFT & GameFi Platform.</b>
+                <br />
+                Start your journey in our metaverse by acquiring your first Cubie NFT, breeding it, and playing with him in one of our games.
+              </p>
             </div>
             <div className="bnc">
               <button className="bn" onClick={scrollToDiscover}>
@@ -278,8 +282,12 @@ export default function HomePage() {
               </div>
               <h3>Collect</h3>
               <div className="p">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                <p>
+                  Explore the extensive Cubies collection! Normal, Unique, Rare, Epic or Legendary, they're all adorable and have their own
+                  characteristics.
+                  <br />
+                  Hurry, there won't be something for everyone.
+                </p>
               </div>
               {/*
               <a href="" className="bn" title="Explore">
@@ -293,8 +301,13 @@ export default function HomePage() {
               </div>
               <h3>Breed</h3>
               <div className="p">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                <p>
+                  Evolve your Cubies team by making them breed with each other.
+                  <br />
+                  Be careful, they don't all get along perfectly but we're sure you will manage.
+                  <br />
+                  If you work miracles get rewarded by selling your creation on the marketplace!
+                </p>
               </div>
             </div>
             <div>
@@ -303,8 +316,13 @@ export default function HomePage() {
               </div>
               <h3>Play</h3>
               <div className="p">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                <p>
+                  After effort, comes comfort.
+                  <br />
+                  Relax while playing with your Cubies at one of our games. The most talented among you will be directly rewarded with the platform's native token, $CUBE.
+                  <br />
+                  Who will be the star of the Cubie metaverse?
+                </p>
               </div>
             </div>
           </div>
@@ -322,7 +340,7 @@ export default function HomePage() {
               </h2>
             </div>
             <div className="p">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+              <p>Spot the Cubies that get along well in your collection, and breed them. They will undoubtedly bring you prodigious children... or not?</p>
             </div>
             <div className="bnc">
               <Tooltip label="Coming soon..." fontSize="md" rounded="xl" px="4" py="2" bg="#ff969e">
@@ -347,11 +365,13 @@ export default function HomePage() {
           <div className="txt">
             <div className="title">
               <h2 className="h">
-                <strong>Games</strong> Earn to Play
+                <strong>Games</strong> Play to Earn
               </h2>
             </div>
             <div className="p">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+              <p>
+                Come, parade and face your best Cubies against other players in your favorite game. Challenge yourself to collect some precious $CUBE tokens!
+              </p>
             </div>
             <div className="bnc">
               <Tooltip label="Coming soon..." fontSize="md" rounded="xl" px="4" py="2" bg="#7a6cf0">
@@ -380,9 +400,13 @@ export default function HomePage() {
           </div>
           <div className="p">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. Lorem ipsum dolor sit amet,
-              consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-              sed do eiusmod tempor incididunt ut labore et dolore magna.
+              The $CUBE token is the core of our platform, it is around it that the entire project is built.
+              <br />
+              All transactions, purchases, sales and bets are settled in CUBE. Access to games, marketplace, governance and staking will be exclusively reserved for CUBEs holders.
+              <br />
+            </p>
+            <p style={{ marginTop: 10 }}>
+              The vast majority of the platform's profits, 80%, will be used to buy and burn $CUBE on a weekly basis.
             </p>
           </div>
           <div className="bnc">
@@ -402,58 +426,66 @@ export default function HomePage() {
         <div className="ct">
           <div className="title">
             <h2 className="h">
-              <strong>Roadmap</strong> Who said cubies don't roll fast
+              <strong>Roadmap</strong> Who said cubies don't roll fast?
             </h2>
           </div>
           <ul>
             <li>
               <ol>
                 <li>Q3 2021</li>
-                <li>Molestiae, corporis, sunt asperiores.</li>
-                <li>Lorem ipsum, dolor sit, amet consectetur adipisicing elit.</li>
-                <li>Accusamus dolores placeat facere libero harum dolorum.</li>
-                <li>Facere exercitationem ad.</li>
-                <li>Dolore veritatis tenetur nulla aliquam voluptate.</li>
-                <li>Laudantium debitis dolorum aperiam nam modi eius totam tene.</li>
+                <li>✅ Founded.</li>
+                <li>✅ Minting started on Kraftly.io.</li>
+                <li>✅ Sales of the first 70 Cubie NFTs.</li>
               </ol>
             </li>
 
             <li>
               <ol>
                 <li>Q4 2021</li>
-                <li>Molestiae, corporis, sunt asperiores.</li>
-                <li>Lorem ipsum, dolor sit, amet consectetur adipisicing elit.</li>
-                <li>Accusamus dolores placeat facere libero harum dolorum.</li>
-                <li>Facere exercitationem ad.</li>
-                <li>Dolore veritatis tenetur nulla aliquam voluptate.</li>
-                <li>Laudantium debitis dolorum aperiam nam modi eius totam tene.</li>
+                <li>Product Website. ✅</li>
+                <li>Top Sellers on Kraftly.io. ✅ </li>
+                <li>
+                  Partnership with{' '}
+                  <a href="https://justmoney.io" target="_blank" style={{ fontWeight: 'bold' }}>
+                    JustMoney
+                  </a>
+                  . ✅
+                </li>
+                <li>
+                  Partnership with{' '}
+                  <a href="https://www.locklet.finance" target="_blank" style={{ fontWeight: 'bold' }}>
+                    Locklet
+                  </a>
+                  . ✅
+                </li>
+                <li>$CUBE Token (TRC-20) Release & Sales.</li>
               </ol>
             </li>
 
             <li>
               <ol>
                 <li>Q1 2022</li>
-                <li>Molestiae, corporis, sunt asperiores.</li>
-                <li>Lorem ipsum, dolor sit, amet consectetur adipisicing elit.</li>
-                <li>Accusamus dolores placeat facere libero harum dolorum.</li>
-                <li>Facere exercitationem ad.</li>
-                <li>Dolore veritatis tenetur nulla aliquam voluptate.</li>
-                <li>Laudantium debitis dolorum aperiam nam modi eius totam tene.</li>
+                <li>$CUBE NFT Contract (TRC-721) Release & Migrations.</li>
+                <li>Platform Website.</li>
+                <li>Cubie NFTs Breeding.</li>
               </ol>
             </li>
 
             <li>
               <ol>
                 <li>Q2 2022</li>
-                <li>Molestiae, corporis, sunt asperiores.</li>
-                <li>Lorem ipsum, dolor sit, amet consectetur adipisicing elit.</li>
-                <li>Accusamus dolores placeat facere libero harum dolorum.</li>
-                <li>Facere exercitationem ad.</li>
-                <li>Dolore veritatis tenetur nulla aliquam voluptate.</li>
-                <li>Laudantium debitis dolorum aperiam nam modi eius totam tene.</li>
+                <li>Governance Launch.</li>
+                <li>Mystery Box Integration.</li>
+                <li>First Cubie Games.</li>
               </ol>
             </li>
           </ul>
+
+          <div className="bnc" style={{ textAlign: 'center', marginTop: 50 }}>
+            <RouterLink to="/cubies" className="bn" title="Play">
+              See all Cubies
+            </RouterLink>
+          </div>
         </div>
       </div>
     </>
