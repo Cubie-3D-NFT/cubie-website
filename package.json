@@ -29,6 +29,7 @@
     "chart.js": "^3.5.1",
     "chartjs-adapter-luxon": "^1.1.0",
     "copy-to-clipboard": "^3.3.1",
+    "copy-webpack-plugin": "6.4.1",
     "core-js": "^3.15.1",
     "date-fns": "^2.23.0",
     "ethers": "^5.4.6",

@@ -6,6 +6,7 @@ module.exports = {
   entryPath: path.resolve(__dirname, '../', 'src/index.jsx'),
   faviconPath: path.resolve(__dirname, '../', 'src/assets/images/favicon.png'),
   templatePath: path.resolve(__dirname, '../', 'src/template.html'),
+  staticFolder: path.resolve(__dirname, '../', 'src/assets/static'),
   imagesFolder: 'images',
   fontsFolder: 'fonts',
   cssFolder: 'styles',

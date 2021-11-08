@@ -2,8 +2,10 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 const TerserPlugin = require('terser-webpack-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 const commonPaths = require('./paths');
+const paths = require('./paths');
 
 module.exports = {
   mode: 'production',
@@ -64,6 +66,11 @@ module.exports = {
       filename: `${commonPaths.cssFolder}/[name].[hash].css`,
       chunkFilename: `${commonPaths.cssFolder}/[name].[chunkhash].css`,
     }),
+    new CopyWebpackPlugin({
+      patterns: [
+          { from: paths.staticFolder, to: 'static' }
+      ]
+  })
   ],
   devtool: 'source-map',
 };
