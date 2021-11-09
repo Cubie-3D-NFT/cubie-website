@@ -1,3 +1,4 @@
+import { useColorMode } from '@chakra-ui/color-mode';
 import { usePrevious } from '@chakra-ui/hooks';
 import { Expo, gsap, Linear } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
@@ -37,6 +38,11 @@ const fixClass = (y) => {
 export default function App() {
   // const { chainId } = useActiveUnifiedWeb3();
   // const appNetwork = useSelector((state) => state.app.network);
+
+  const { colorMode } = useColorMode();
+  useEffect(() => {
+    console.log('ColorMode', colorMode);
+  }, [colorMode]);
 
   let { scrollbar, scrollToPos } = useScrollbar();
 

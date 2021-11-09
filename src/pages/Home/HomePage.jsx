@@ -433,25 +433,25 @@ export default function HomePage() {
             <li>
               <ol>
                 <li>Q3 2021</li>
-                <li class="done">Founded.</li>
-                <li class="done">Minting started on Kraftly.io.</li>
-                <li class="done">Sales of the first 70 Cubie NFTs.</li>
+                <li className="done">Founded.</li>
+                <li className="done">Minting started on Kraftly.io.</li>
+                <li className="done">Sales of the first 70 Cubie NFTs.</li>
               </ol>
             </li>
 
             <li>
               <ol>
                 <li>Q4 2021</li>
-                <li class="done-alt">Product Website.</li>
-                <li class="done-alt">Top Sellers on Kraftly.io.</li>
-                <li class="done-alt">
+                <li className="done-alt">Product Website.</li>
+                <li className="done-alt">Top Sellers on Kraftly.io.</li>
+                <li className="done-alt">
                   Partnership with{' '}
                   <a href="https://justmoney.io" target="_blank" style={{ fontWeight: 'bold' }}>
                     JustMoney
                   </a>
                   .
                 </li>
-                <li class="done-alt">
+                <li className="done-alt">
                   Partnership with{' '}
                   <a href="https://www.locklet.finance" target="_blank" style={{ fontWeight: 'bold' }}>
                     Locklet
