@@ -420,7 +420,31 @@ export default function HomePage() {
         <img src={TCubieLeft} className="cub cub-l" alt="Cubie 3D NFT" />
         <img src={TCubieRight} className="cub cub-r" alt="Cubie 3D NFT" />
       </div>
-
+      
+      { /**
+          <iframe id="jmSwapFrame" src="https://justmoney.exchange/widget" style="width: 500px;height: 500px;margin:auto;" allowtransparency="true" frameborder="0" scrolling="no"></iframe>
+          <script type="application/javascript">
+              var JMSwapOptions = {
+                  network: 'TRON',
+                  liquidityTab: true,
+                  shadow: false,
+                  backgroundColor: '#ED4268',
+                  textColor: '#FFF',
+                  buttonStyle: 'background:#FFF;color:#000;',
+                  maxButtonStyle: 'background:#FFF;color:#000;',
+                  headingStyle: 'color:#FFF;',
+                  lightBranding: true,
+                  tokens: [],
+                  excludeTokens: ['SafeMoney','ACTIV','MILK','ZLF','TWJ','ICR'],
+                  fromToken: "TRX",
+                  toToken: "JM",
+                  tabNavStyle: "color: #ffffff;border-color:#FFF",
+                  tabNavActiveStyle: 'background: white'
+              }
+          </script>
+          <script src="https://justmoney.exchange/assets/js/widgetLib-1.0.js"></script>
+       */}
+       
       {/* Roadmap */}
       <div id="e">
         <div className="ct">
