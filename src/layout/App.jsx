@@ -39,11 +39,6 @@ export default function App() {
   // const { chainId } = useActiveUnifiedWeb3();
   // const appNetwork = useSelector((state) => state.app.network);
 
-  const { colorMode } = useColorMode();
-  useEffect(() => {
-    console.log('ColorMode', colorMode);
-  }, [colorMode]);
-
   let { scrollbar, scrollToPos } = useScrollbar();
 
   const location = useLocation();

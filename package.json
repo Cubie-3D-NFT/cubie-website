@@ -10,6 +10,7 @@
     "format": "prettier --write 'src/**/*.js'"
   },
   "resolutions": {
+    "@chakra-ui/react-utils": "1.1.2",
     "@chakra-ui/color-mode": "<1.2.0"
   },
   "dependencies": {
