@@ -76,7 +76,7 @@ export default function Footer() {
                     </RouterLink>
                   </li>
                   <li>
-                    <RouterLink to="#" title="Games">
+                    <RouterLink to="/games" title="Games">
                       Games
                     </RouterLink>
                   </li>

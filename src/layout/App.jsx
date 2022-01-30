@@ -17,6 +17,7 @@ import Web3Manager from 'src/components/Web3Manager';
 import { useScrollbar } from 'src/hooks/useScrollbar';
 import { useActiveUnifiedWeb3 } from 'src/hooks/useUnifiedWeb3';
 import CubiesPage from 'src/pages/Cubies/CubiesPage';
+import GamesPage from 'src/pages/Games/GamesPage';
 import HomePage from 'src/pages/Home/HomePage';
 
 import 'src/styles/app.css';
@@ -149,6 +150,7 @@ export default function App() {
           <Switch>
             <Route exact path="/" component={HomePage} />
             <Route exact path="/cubies" component={CubiesPage} />
+            <Route exact path="/games" component={GamesPage} />
 
             <Redirect to="/" />
           </Switch>

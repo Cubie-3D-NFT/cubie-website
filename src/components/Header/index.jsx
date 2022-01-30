@@ -82,11 +82,9 @@ export default function Header() {
             </Tooltip>
           </li>
           <li>
-            <Tooltip label="Coming soon..." fontSize="md" rounded="md" px="4" py="2" bg="black">
-              <RouterLink to="#" title="Games">
-                Games
-              </RouterLink>
-            </Tooltip>
+            <RouterLink to="/games" title="Games" className={pathname == '/games' ? 'act' : undefined}>
+              Games
+            </RouterLink>
           </li>
           <li>
             <Tooltip label="Coming soon..." fontSize="md" rounded="md" px="4" py="2" bg="white" color="black">
