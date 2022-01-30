@@ -1,14 +1,14 @@
 import capitalize from 'capitalize-sentence';
 import React, { useEffect, useState } from 'react';
+import Unity, { UnityContext } from "react-unity-webgl"
 import { getGallery } from 'src/services/storyblokApi';
 import { hexToRGB } from 'src/utils';
-import Unity, { UnityContext } from "react-unity-webgl"
 
 const unityContext = new UnityContext({
-  loaderUrl:    "../unity/CubieBird/Build/CubieBird.loader.js",
-  dataUrl:      "../unity/CubieBird/Build/CubieBird.data",
-  frameworkUrl: "../unity/CubieBird/Build/CubieBird.framework.js",
-  codeUrl:      "../unity/CubieBird/Build/CubieBird.wasm",
+  loaderUrl:    "static/games/CubieBird/Build/CubieBird.loader.js",
+  dataUrl:      "static/games/CubieBird/Build/CubieBird.data",
+  frameworkUrl: "static/games/CubieBird/Build/CubieBird.framework.js",
+  codeUrl:      "static/games/CubieBird/Build/CubieBird.wasm",
   // Additional configuration options.
   webglContextAttributes: {
     preserveDrawingBuffer: true,
