@@ -1,3 +1,4 @@
+import { useColorMode } from '@chakra-ui/color-mode';
 import { usePrevious } from '@chakra-ui/hooks';
 import { Expo, gsap, Linear } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
