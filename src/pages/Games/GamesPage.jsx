@@ -19,9 +19,8 @@ export default function CubiesPage() {
         <div className="lst">
           <Unity className="unity-canvas" unityContext={unityContext} />
           <div className="title">
-            <h2 className="h">
-              <strong>Ranking</strong> Comming soon...
-            </h2>
+            <h2 className="h">Ranking</h2>
+            <p>Comming soon...</p>
           </div>
         </div>
       </div>
