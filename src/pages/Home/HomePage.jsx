@@ -406,16 +406,12 @@ export default function HomePage() {
               <br />
             </p>
             <p style={{ marginTop: 10 }}>
-              The vast majority of the platform's profits, 80%, will be used to buy and burn $CUBE on a weekly basis.
+              The vast majority of the platform's profits, 80%,<br/>
+              will be used to buy and burn $CUBE on a weekly basis.
             </p>
           </div>
-          <div className="bnc">
-            <Tooltip label="Presale is coming soon..." fontSize="md" rounded="xl" px="4" py="2" bg="black">
-              <a href="#" className="bn" title="Buy">
-                Buy $CUBE
-              </a>
-            </Tooltip>
-          </div>
+
+          <iframe id="jmSwapFrame" src="https://justmoney.exchange/widget" style={{width: 500, height: 500, margin: 'auto'}} allowtransparency="true" frameBorder="0" scrolling="no"></iframe>
         </div>
         <img src={TCubieLeft} className="cub cub-l" alt="Cubie 3D NFT" />
         <img src={TCubieRight} className="cub cub-r" alt="Cubie 3D NFT" />
