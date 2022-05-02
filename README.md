@@ -1,6 +1,3 @@
-<p align="center">
-  <img width="321" height="69" src="https://i.imgur.com/bt9pQwk.png">
-</p>
 
 ## 🛠 Usage
 
