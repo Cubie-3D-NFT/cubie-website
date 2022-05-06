@@ -482,7 +482,7 @@ export default function HomePage() {
                   </a>
                   .
                 </li>
-                <li>$CUBE Token (TRC-20) Release & Sales.</li>
+                <li className="done-alt">$CUBE Token (TRC-20) Release & Sales.</li>
               </ol>
             </li>
 
