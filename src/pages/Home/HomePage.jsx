@@ -437,7 +437,7 @@ export default function HomePage() {
                   tokens: [],
                   excludeTokens: ['SafeMoney','ACTIV','MILK','ZLF','TWJ','ICR'],
                   fromToken: "TRX",
-                  toToken: "JM",
+                  toToken: "CUBE",
                   tabNavStyle: "color: #ffffff;border-color:#FFF",
                   tabNavActiveStyle: 'background: white'
               }
